@@ -1,13 +1,7 @@
-// var builder = WebApplication.CreateBuilder(args);
-// var app = builder.Build();
-
-// app.MapGet("/", () => "Hello World!");
-
-// app.Run();
-
+// using Microsoft.AspNetCore.HttpOverrides; // added
 using Twilio.AspNet.Core;
 using SmsChatGpt;
-using OpenAI.GPT3.Extensions;
+using OpenAI.Extensions; // was OpenAI.GPT3.Extensions
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="Betalgo.OpenAI" Version="7.1.5" />
-    <PackageReference Include="OpenAI.GPT3" Version="1.0.3" />
+    <!-- <PackageReference Include="OpenAI.GPT3" Version="1.0.3" /> -->
     <PackageReference Include="Twilio" Version="6.11.0" />
     <PackageReference Include="Twilio.AspNet.Core" Version="8.0.2" />
   </ItemGroup>

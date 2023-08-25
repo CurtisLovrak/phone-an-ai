@@ -1,10 +1,12 @@
 using System.Text;
 using System.Security.Cryptography;
-using OpenAI.GPT3.Interfaces;
-using OpenAI.GPT3.ObjectModels;
-using OpenAI.GPT3.ObjectModels.RequestModels;
+using OpenAI.Interfaces; // was OpenAI.GPT3.Interfaces
+using OpenAI.ObjectModels; // was OpenAI.GPT3.ObjectModels
+using OpenAI.ObjectModels.RequestModels; // was OpenAI.GPT3.ObjectModels.RequestModels
 using Twilio.Clients;
 using Twilio.Rest.Api.V2010.Account;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
+// using OpenAI.ObjectModels; // redundancy
 
 namespace SmsChatGpt;
 
@@ -42,6 +44,8 @@ public static class MessageEndpoint
                     ChatMessage.FromUser(body)
                 },
                 Model = Models.ChatGpt3_5Turbo,
+                // Model = Gpt_3_5_Turbo,
+                // Model = Models.ChatGpt3,
                 User = userId
             },
             cancellationToken: cancellationToken
