@@ -38,6 +38,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Betalgo.OpenAI": {
+              "target": "Package",
+              "version": "[7.1.5, )"
+            },
+            "OpenAI.GPT3": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
             "Twilio": {
               "target": "Package",
               "version": "[6.11.0, )"

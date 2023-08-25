@@ -1,0 +1,7 @@
+/Users/makaylamarie/Documents/JS/phone-an-ai/obj/Debug/net7.0/phone-an-ai.csproj.AssemblyReference.cache
+/Users/makaylamarie/Documents/JS/phone-an-ai/obj/Debug/net7.0/phone-an-ai.GeneratedMSBuildEditorConfig.editorconfig
+/Users/makaylamarie/Documents/JS/phone-an-ai/obj/Debug/net7.0/phone-an-ai.AssemblyInfoInputs.cache
+/Users/makaylamarie/Documents/JS/phone-an-ai/obj/Debug/net7.0/phone-an-ai.AssemblyInfo.cs
+/Users/makaylamarie/Documents/JS/phone-an-ai/obj/Debug/net7.0/phone-an-ai.csproj.CoreCompileInputs.cache
+/Users/makaylamarie/Documents/JS/phone-an-ai/obj/Debug/net7.0/phone-an-ai.MvcApplicationPartsAssemblyInfo.cs
+/Users/makaylamarie/Documents/JS/phone-an-ai/obj/Debug/net7.0/phone-an-ai.MvcApplicationPartsAssemblyInfo.cache
