@@ -43,9 +43,8 @@ public static class MessageEndpoint
                 {
                     ChatMessage.FromUser(body)
                 },
-                Model = Models.ChatGpt3_5Turbo,
-                // Model = Gpt_3_5_Turbo,
-                // Model = Models.ChatGpt3,
+                // Model = Models.ChatGpt3_5Turbo, // depricated
+                Model = Models.Gpt_3_5_Turbo,
                 User = userId
             },
             cancellationToken: cancellationToken

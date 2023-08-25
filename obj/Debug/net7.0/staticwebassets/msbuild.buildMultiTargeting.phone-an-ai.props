@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/phone-an-ai.props" />
+</Project>
