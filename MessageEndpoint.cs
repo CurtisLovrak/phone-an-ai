@@ -5,7 +5,7 @@ using OpenAI.ObjectModels; // was OpenAI.GPT3.ObjectModels
 using OpenAI.ObjectModels.RequestModels; // was OpenAI.GPT3.ObjectModels.RequestModels
 using Twilio.Clients;
 using Twilio.Rest.Api.V2010.Account;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
+// using Microsoft.AspNetCore.Mvc.ModelBinding; // not used
 // using OpenAI.ObjectModels; // redundancy
 
 namespace SmsChatGpt;
